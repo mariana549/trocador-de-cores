@@ -37,9 +37,6 @@ function removerPrimeiraCor(listColors) {
 
 function toggleColor() {
     button.addEventListener("click", (e) => {
-        e.preventDefault();
-        gerarCorAleatoria();
-
         let cor = gerarCorAleatoria();
 
         nomeCor.textContent = cor;
