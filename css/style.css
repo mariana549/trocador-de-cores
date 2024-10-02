@@ -63,5 +63,26 @@
     font-size: 18px;
     border-radius: 5px;
     margin: 5px;
+
+}
+
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 35px;
+    }
     
+    .nomeCor {
+        font-size: 18px;
+    }
+    
+    .btn {
+        width: 270px;
+        padding: 5px;
+        font-size: 16px;
+    }
+    
+    .liColors {
+        padding: 5px;
+        font-size: 16px;
+    }
 }
